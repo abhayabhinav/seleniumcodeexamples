@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custome_Reports" parallel="tests">
+
+<test name="TestB1">
+    <classes>
+        <class name="suiteB.TestB1" ></class>  
+    </classes>
+</test>
+
+<test name="TestB2">
+    <classes>
+        <class name="suiteB.TestB2" ></class>  
+    </classes>
+</test>
+</suite>

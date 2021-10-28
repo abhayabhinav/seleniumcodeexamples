@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNg_Module9]" parallel="tests">
+  <listeners>
+    <listener class-name="testng_listeners.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)" parallel="tests">
+    <classes>
+      <class name="testng_listeners.LoginTest">
+        <methods>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- testng_listeners.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [TestNg_Module9] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNg_Module9]" parallel="tests">
+  <test thread-count="5" name="ApplicationTest(failed)" parallel="tests">
+    <classes>
+      <class name="Test.ApplicationTest">
+        <methods>
+          <include name="AccessDashboard"/>
+          <include name="BeforeTest"/>
+          <include name="AfterSuite"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeSuite"/>
+          <include name="AfterTest"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- Test.ApplicationTest -->
+    </classes>
+  </test> <!-- ApplicationTest(failed) -->
+</suite> <!-- Failed suite [TestNg_Module9] -->

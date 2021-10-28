@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg_Module9" parallel="tests">
+
+<test name="ApplicationTest">
+    <classes>
+        <class name="Test.ApplicationTest" ></class>  
+    </classes>
+</test>
+
+<test name="TestObject">
+    <classes>
+        <class name="Test.TestObject" ></class>  
+    </classes>
+</test>
+</suite>

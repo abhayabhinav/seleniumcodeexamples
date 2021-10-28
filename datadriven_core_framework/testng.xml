@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Framework">
+
+<listeners>
+    <listener class-name="listener.TestsListenerAdapter" />
+</listeners>
+
+<test name="DummyTestA">
+    <classes>
+        <class name="com.abhinav.datadrivenframework.DummyTestA" ></class>  
+    </classes>
+</test>
+
+<test name="DummyTestB">
+    <classes>
+        <class name="com.abhinav.datadrivenframework.DummyTestA" ></class>  
+    </classes>
+</test>
+
+<test name="DummyTestC">
+    <classes>
+        <class name="com.abhinav.datadrivenframework.DummyTestA" ></class>  
+    </classes>
+</test>
+</suite>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="3" ignored="0" total="18" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Custome_Reports (0)" duration-ms="22" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+    <groups>
+    </groups>
+    <test name="TestB1" duration-ms="9" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+      <class name="suiteB.TestB1">
+        <test-method status="PASS" signature="TestB11()[pri:1, instance:suiteB.TestB1@46d56d67]" name="TestB11" duration-ms="0" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB11 -->
+        <test-method status="FAIL" signature="TestB12()[pri:2, instance:suiteB.TestB1@46d56d67]" name="TestB12" duration-ms="1" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [B] but found [A]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [B] but found [A]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at suiteB.TestB1.TestB12(TestB1.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB12 -->
+        <test-method status="SKIP" signature="TestB13()[pri:3, instance:suiteB.TestB1@46d56d67]" name="TestB13" duration-ms="0" started-at="2018-04-23T15:08:33Z" depends-on-methods="suiteB.TestB1.TestB12" finished-at="2018-04-23T15:08:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestB1.TestB13()[pri:3, instance:suiteB.TestB1@46d56d67] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestB1.TestB13()[pri:3, instance:suiteB.TestB1@46d56d67] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB13 -->
+      </class> <!-- suiteB.TestB1 -->
+    </test> <!-- TestB1 -->
+    <test name="TestB2" duration-ms="18" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+      <class name="suiteB.TestB2">
+        <test-method status="PASS" signature="TestB21()[pri:1, instance:suiteB.TestB2@3ffc5af1]" name="TestB21" duration-ms="3" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB21 -->
+        <test-method status="FAIL" signature="TestB22()[pri:2, instance:suiteB.TestB2@3ffc5af1]" name="TestB22" duration-ms="0" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [B] but found [A]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [B] but found [A]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at suiteB.TestB2.TestB22(TestB2.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB22 -->
+        <test-method status="SKIP" signature="TestB23()[pri:3, instance:suiteB.TestB2@3ffc5af1]" name="TestB23" duration-ms="0" started-at="2018-04-23T15:08:33Z" depends-on-methods="suiteB.TestB2.TestB22" finished-at="2018-04-23T15:08:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestB2.TestB23()[pri:3, instance:suiteB.TestB2@3ffc5af1] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestB2.TestB23()[pri:3, instance:suiteB.TestB2@3ffc5af1] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB23 -->
+      </class> <!-- suiteB.TestB2 -->
+    </test> <!-- TestB2 -->
+  </suite> <!-- Custome_Reports (0) -->
+  <suite name="Custome_Reports (1)" duration-ms="8" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+    <groups>
+    </groups>
+    <test name="TestC2" duration-ms="5" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+      <class name="suiteC.TestC2">
+        <test-method status="PASS" signature="TestC21()[pri:1, instance:suiteC.TestC2@5e3a8624]" name="TestC21" duration-ms="0" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestC21 -->
+        <test-method status="PASS" signature="TestC22()[pri:2, instance:suiteC.TestC2@5e3a8624]" name="TestC22" duration-ms="0" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestC22 -->
+        <test-method status="PASS" signature="TestC23()[pri:3, instance:suiteC.TestC2@5e3a8624]" name="TestC23" duration-ms="1" started-at="2018-04-23T15:08:33Z" depends-on-methods="suiteC.TestC2.TestC22" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestC23 -->
+      </class> <!-- suiteC.TestC2 -->
+    </test> <!-- TestC2 -->
+    <test name="TestC1" duration-ms="8" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+      <class name="suiteC.TestC1">
+        <test-method status="PASS" signature="TestC11()[pri:1, instance:suiteC.TestC1@6f7fd0e6]" name="TestC11" duration-ms="1" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestC11 -->
+        <test-method status="PASS" signature="TestC12()[pri:2, instance:suiteC.TestC1@6f7fd0e6]" name="TestC12" duration-ms="1" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestC12 -->
+        <test-method status="PASS" signature="TestC13()[pri:3, instance:suiteC.TestC1@6f7fd0e6]" name="TestC13" duration-ms="0" started-at="2018-04-23T15:08:33Z" depends-on-methods="suiteC.TestC1.TestC12" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestC13 -->
+      </class> <!-- suiteC.TestC1 -->
+    </test> <!-- TestC1 -->
+  </suite> <!-- Custome_Reports (1) -->
+  <suite name="My Suite" duration-ms="0" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+    <groups>
+    </groups>
+  </suite> <!-- My Suite -->
+  <suite name="Custome_Reports" duration-ms="43" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+    <groups>
+    </groups>
+    <test name="TestA2" duration-ms="43" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+      <class name="suiteA.TestA2">
+        <test-method status="PASS" signature="TestA21()[pri:1, instance:suiteA.TestA2@18be83e4]" name="TestA21" duration-ms="14" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA21 -->
+        <test-method status="PASS" signature="TestA22()[pri:2, instance:suiteA.TestA2@18be83e4]" name="TestA22" duration-ms="1" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA22 -->
+        <test-method status="PASS" signature="TestA23()[pri:3, instance:suiteA.TestA2@18be83e4]" name="TestA23" duration-ms="2" started-at="2018-04-23T15:08:33Z" depends-on-methods="suiteA.TestA2.TestA22" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA23 -->
+      </class> <!-- suiteA.TestA2 -->
+    </test> <!-- TestA2 -->
+    <test name="TestA1" duration-ms="43" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+      <class name="suiteA.TestA1">
+        <test-method status="PASS" signature="TestA11()[pri:1, instance:suiteA.TestA1@6cc4c815]" name="TestA11" duration-ms="15" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA11 -->
+        <test-method status="FAIL" signature="TestA12()[pri:2, instance:suiteA.TestA1@6cc4c815]" name="TestA12" duration-ms="2" started-at="2018-04-23T15:08:33Z" finished-at="2018-04-23T15:08:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [B] but found [A]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [B] but found [A]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at suiteA.TestA1.TestA12(TestA1.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA12 -->
+        <test-method status="SKIP" signature="TestA13()[pri:3, instance:suiteA.TestA1@6cc4c815]" name="TestA13" duration-ms="0" started-at="2018-04-23T15:08:33Z" depends-on-methods="suiteA.TestA1.TestA12" finished-at="2018-04-23T15:08:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestA1.TestA13()[pri:3, instance:suiteA.TestA1@6cc4c815] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestA1.TestA13()[pri:3, instance:suiteA.TestA1@6cc4c815] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA13 -->
+      </class> <!-- suiteA.TestA1 -->
+    </test> <!-- TestA1 -->
+  </suite> <!-- Custome_Reports -->
+</testng-results>

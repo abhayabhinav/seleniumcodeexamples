@@ -1,0 +1,14 @@
+download maven
+Define it in Environment variable
+	MVN_HOME - Path of mvn
+	Path - Path of mvn\bin
+mvn archetype:generate
+groupid - package name
+artifact id - project name
+mvn compile
+mvn eclipse:eclipse
+Import the project in the eclipse
+Add required dependencies in the POM file and Save
+cmd - mvn compile
+cmd - mvn eclipse:eclipse
+In Eclipse - Refresh the project and you should be good to go !

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg_Module9" parallel="tests">
+
+<listeners>
+	<listener class-name="testng_listeners.CustomListener"> </listener> 
+</listeners>
+
+<test name="LoginTest">
+    <classes>
+        <class name="testng_listeners.LoginTest" ></class>  
+    </classes>
+</test>
+</suite>

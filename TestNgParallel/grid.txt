@@ -1,0 +1,31 @@
+
+
+Hub setup-> Port 4444. Fired on Main Machine where ode is (with cmd prompt)hub machine
+java -jar C:\Users\abhinav.abhay\Desktop\Gym\selenium-server-standalone-3.141.59.jar -role hub -host 10.2.113.61
+***10.2.113.61 = machine Ip Address
+
+http://10.2.113.61:4444/grid/register/
+http://10.2.113.61:4444/wd/hub - Put this url in the base test class where you define remote machine
+
+
+On another command prompt - Set up node 1
+java -Dwebdriver.gecko.driver="C:\Users\abhinav.abhay\Documents\OneDrive - Tavant Technologies\Documents\Software\geckodriver-v0.20.1-win64\geckodriver.exe" -Dwebdriver.chrome.driver="C:\Users\abhinav.abhay\Documents\OneDrive - Tavant Technologies\Documents\Software\chromedriver_win32\chromedriver.exe" -Dwebdriver.ie.driver="C:\Users\abhinav.abhay\Documents\OneDrive - Tavant Technologies\Documents\Software\IEDriverServer_Win32_3.11.1\IEDriverServer.exe" -jar C:\Users\abhinav.abhay\Desktop\Gym\selenium-server-standalone-3.141.59.jar -role node -hub http://10.2.113.61:4444/grid/register/
+
+Registered a node http://10.2.113.61:44344   (pass this in node1.json in hub)
+
+
+On another command prompt - Set up node 2
+java -Dwebdriver.gecko.driver="C:\Users\abhinav.abhay\Documents\OneDrive - Tavant Technologies\Documents\Software\geckodriver-v0.20.1-win64\geckodriver.exe" -Dwebdriver.chrome.driver="C:\Users\abhinav.abhay\Documents\OneDrive - Tavant Technologies\Documents\Software\chromedriver_win32\chromedriver.exe" -Dwebdriver.ie.driver="C:\Users\abhinav.abhay\Documents\OneDrive - Tavant Technologies\Documents\Software\IEDriverServer_Win32_3.11.1\IEDriverServer.exe" -jar C:\Users\abhinav.abhay\Desktop\Gym\selenium-server-standalone-3.141.59.jar -role node -hub http://10.2.113.61:4444/grid/register/
+
+Registered a node http://10.2.113.61:28029  (pass this in node2.json in hub)
+
+After this run the parallel test either through paralle test class or testng.xml
+
+
+------------------------
+1. Have dependent test cases in same class and define priority using testng
+2. In order to point the dependent to the same node, itha sto point to the same node
+3. To point to the same node , it has to use the same driver
+4. Use @AfterTest to quit the browser instead of AfterMethod.
+
+if having issues use this link to understand how to set up the grid - https://www.codementor.io/olawalealadeusi896/setting-up-selenium-grid-to-run-your-tests-in-parallel-on-multiple-browsers-kl6vqi83a

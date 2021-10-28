@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DummyTestA">
+<test name="TestA1">
+    <classes>
+        <class name="com.abhinav.datadrivenframework.DummyTestA.TestA1" ></class>  
+    </classes>
+</test>
+
+<test name="TestA2">
+    <classes>
+        <class name="com.abhinav.datadrivenframework.DummyTestA.TestA2" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

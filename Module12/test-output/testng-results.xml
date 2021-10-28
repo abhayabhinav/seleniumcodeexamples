@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10307" started-at="2018-06-13T15:14:53Z" finished-at="2018-06-13T15:15:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10307" started-at="2018-06-13T15:14:53Z" finished-at="2018-06-13T15:15:03Z">
+      <class name="americangolf">
+        <test-method status="PASS" signature="findelement()[pri:0, instance:americangolf@7c16905e]" name="findelement" duration-ms="10282" started-at="2018-06-13T15:14:53Z" finished-at="2018-06-13T15:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findelement -->
+      </class> <!-- americangolf -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
